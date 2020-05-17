@@ -1,0 +1,17 @@
+footer {
+  color:red;
+  font-family: Arial;
+}
+footer p {
+  color:black;
+}
+footer h1 {
+  text-align:center;
+}
+footer h2::before {
+  content:'';
+  display: block;
+  width:50%;
+  height:2px;
+  background-color: red;
+}
